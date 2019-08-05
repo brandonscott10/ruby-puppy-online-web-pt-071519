@@ -20,7 +20,6 @@ class Dog
   end 
   
   def self.print_all
-    binding.pry
     @@all.each.uniq do |dog|
       puts dog.name
     end
